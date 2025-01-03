@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: white;
+}
+body {
+    width: 980px;
+    max-width: 100%;
+    background-color: gainsboro;
+    margin: auto;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+header {
+    min-height: 250px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    gap: 40px;
+}
+
+.profile-photo {
+  background-color: brown;
+  width: 35%;
+  text-align: center;
+
+}
+.img {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: whitesmoke;
+}
+
+.profile-info {
+    flex: 1;
+    background-color: yellow;
+}
+main {
+ display: flex;
+ height: 100vh;
+}
+
+.left {
+    width: 35%;
+    background-color: dodgerblue;
+}
+
+.right {
+    width: 65%;
+    background-color: tomato;
+}
